@@ -8,6 +8,17 @@
   <style>
     table { table-layout: fixed; }
     td { width: 25%; }
+    .full-width {
+       width: 100%;
+    }
+    .md-half {
+      width: 50%;
+    }
+    @media (max-width: 768px) {
+      .md-half {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
@@ -15,7 +26,7 @@
   <table border="0" cellpadding="0" cellspacing="0">
     <!-- intro section -->
     <tr>
-      <td colspan="2" style="font-family: 'Georgia'; font-size: 12pt; color: #1c1c1b; line-height: 16pt;">
+      <td style="font-family: 'Georgia'; font-size: 12pt; color: #1c1c1b; line-height: 16pt;" class="full-width">
         <div style=" font-weight: bold;">
            Patricia Murray-Cox
           <br> Office Manager
@@ -35,7 +46,7 @@
 
     <!-- line -->
     <tr>
-      <td colspan="2" style="height: 3px; background-color: #a44f89;"></td>
+      <td style="height: 3px; background-color: #a44f89;" class="md-half"></td>
       <td></td>
       <td></td>
     </tr>
